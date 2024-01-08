@@ -9,18 +9,23 @@ p {
 }
 body {
     background-color: black;
+    box-sizing: border-box;
 }
 
 /*HEADER*/
 header {
     height: 4.3125rem;
-    border-bottom: 1px solid seashell;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: black;
     position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    
 }
 
 nav img {
@@ -29,11 +34,82 @@ nav img {
 }
 
 nav ul {
-    flex: inline-flex;
+    margin-right: 1rem;
 }
 
 nav li {
-    font-size: 22px;
+    font-size: 1.375rem;
     text-decoration: underline;
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.bannerimg {
+    background-image: url("../images/img-mission-background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:43.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75rem;
+}
+
+.message {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+ h2 {
+    font-size: 3rem;
+}
+
+ h4 {
+    font-size: 1.5rem;
+}
+
+ h2, h4 {
+    padding: 0.75rem 0.75rem 1.25rem 0.75rem;
+    font-weight: 700;
+}
+
+.teamonthbox {
+}
+
+.teamonth {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 62.5rem;
+}
+.imbox {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    
+    width: 18.75rem;
+    padding: 1.5rem 0.5rem;
+}
+
+.imbox img {
+
 }
 
