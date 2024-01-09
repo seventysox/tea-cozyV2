@@ -70,7 +70,7 @@ nav li {
     width: 100%;
 }
  h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
  h4 {
@@ -83,13 +83,14 @@ nav li {
 }
 
 .teamonthbox {
+    margin-top: 4rem;
 }
 
 .teamonth {
     text-align: center;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .flexbox {
@@ -113,3 +114,67 @@ nav li {
 
 }
 
+
+.locations {
+    max-width: 75rem;
+    height: 31.25rem;
+    background-image: url('../images/img-locations-background.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    
+
+}
+
+.locations h2 {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.adressbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 61.25rem;
+    margin: 0 auto;
+}
+
+.box {
+    width: 18.75rem;
+    text-align: center;
+    background-color: black;
+    padding: 1rem 0;
+}
+
+.box h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box p {
+    font-size: 1.2rem;
+}
+
+.box h3, p {
+    padding: 1rem;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+.foot {
+    position: relative;
+    float: left;
+    margin: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.contact {
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
